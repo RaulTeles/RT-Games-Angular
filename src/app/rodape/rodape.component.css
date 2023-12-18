@@ -5,4 +5,6 @@ footer{
     justify-content: center;
     height: 50px;
     padding-top: 15px;
+    max-width: 65rem;
+    margin: 0 auto;
 }

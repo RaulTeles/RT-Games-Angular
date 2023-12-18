@@ -4,7 +4,18 @@ html, body {
     height: 100%;
 }
 
+
 body {
-    margin: 0;
+    /* margin: 0; */
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    
+}
+
+.navbar{
+    max-width: 65rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    text-align: center;
 }  

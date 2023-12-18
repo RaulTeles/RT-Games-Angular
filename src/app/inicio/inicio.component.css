@@ -6,8 +6,10 @@ main {
     min-height: 400px;
 }
 
-#section-banner img {
+#section-banners img {
     height: 500px;
+    max-width: 65rem;
+    margin: 0 auto;
 }
 
 h2{

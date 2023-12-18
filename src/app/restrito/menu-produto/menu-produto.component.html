@@ -1,12 +1,13 @@
-<mat-toolbar color="primary">
-    <mat-toolbar-row>
-        <span><a routerLink="/restrito/lista">Listar Produtos</a></span>
-        <span><a routerLink="/restrito/cadastro">Cadastrar Produtos</a></span>
-        <span class="example-spacer"></span>
-
-        <button mat-icon-button class="example-icon" (click)="logout()"
-            aria-label="example-icon-button with share icon">
-            <span class="material-icon">Logout</span>
-        </button>
-    </mat-toolbar-row>
-</mat-toolbar>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <span><a routerLink="/restrito/lista">Listar Produtos</a></span>
+            <span><a routerLink="/restrito/cadastro">Cadastrar Produtos</a></span>
+            <span class="example-spacer"></span>
+            <button mat-icon-button class="example-icon" (click)="logout()"
+                aria-label="example-icon-button with share icon">
+                <span class="material-icon">Logout</span>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</nav>
